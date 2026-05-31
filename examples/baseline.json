@@ -1,0 +1,5 @@
+[
+  { "domain": "good.example", "score": 85, "vertical": "fintech", "decision_card_present": true, "ai_tool_card_present": true, "decision_card_signed": true },
+  { "domain": "drift.example", "score": 75, "vertical": "healthtech", "decision_card_present": true, "ai_tool_card_present": true, "decision_card_signed": true },
+  { "domain": "stable.example", "score": 60, "vertical": "edtech", "decision_card_present": true, "ai_tool_card_present": false, "decision_card_signed": false }
+]

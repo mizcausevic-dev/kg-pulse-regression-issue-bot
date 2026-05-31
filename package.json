@@ -1,0 +1,16 @@
+{
+  "name": "kg-pulse-regression-issue-bot",
+  "version": "0.1.0",
+  "description": "Compares two AI Procurement Pulse crawl snapshots (baseline + new). When a vendor's score regresses by ≥ threshold, generates a ready-to-file GitHub issue body + suggested outreach email template citing the specific field-level diff. Production: wire as a GH Action in the Pulse repo to auto-open issues + open outreach drafts.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": { "kg-pulse-regress": "src/cli.mjs" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "node src/cli.mjs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mizcausevic-dev/kg-pulse-regression-issue-bot",
+  "repository": { "type": "git", "url": "git+https://github.com/mizcausevic-dev/kg-pulse-regression-issue-bot.git" },
+  "keywords": ["kinetic-gain-protocol-suite", "procurement-pulse", "regression-detection", "github-action", "vendor-outreach"]
+}
